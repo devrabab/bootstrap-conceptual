@@ -12,5 +12,17 @@ body {
   height: 80px;
 }
 .banner {
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
+  /* min-height: 500px; */
+}
+/* .new-web-design {
+  height: 100vh;
+} */
+.stop-writing {
+  background-image: url("../img/background.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
 }
